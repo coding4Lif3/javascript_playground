@@ -65,3 +65,13 @@ for (n; n >= 0; n--) {
 for (let nn = 0; n <= 20; n++) {
     console.log(n);
 }
+
+/************ DATA TYPES IN JAVASCRIPT ************/
+let yourAge = 18; // number
+let yourName = "Bob"; // string
+let nameObj = { first: "Bob", last: "Dow" } // Object
+let truthT = true; // boolean
+let truthF = false; // boolean
+let groceries = ["apple", "banana", "oranges"]; // array
+let random; // undefined
+let nothing = null; // value null
