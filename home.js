@@ -75,3 +75,18 @@ let truthF = false; // boolean
 let groceries = ["apple", "banana", "oranges"]; // array
 let random; // undefined
 let nothing = null; // value null
+
+/************ STRINGS IN JAVASCRIPT - common functions ************/
+let fruit = "banana";
+let fruit2 = 'banana,apple,orange,blackberry';
+let moreFruits = "banana\napple"; // new line
+console.log("Fruit lenght: " + fruit.length); // string length
+console.log("Fruit indexOf: " + fruit.indexOf("an"));
+console.log("Fruit slice: " + fruit.slice(2, 6));
+console.log("Fruit replace: " + fruit.replace("vban", "123"));
+console.log("Fruit upperCase: " + fruit.toUpperCase());
+console.log("Fruit lowercase: " + fruit.toLowerCase());
+console.log("Fruit charAt(2): " + fruit.charAt(2));
+console.log("Fruit charAt: " + fruit[2]);
+console.log(fruit2.split(',')); // split by comma
+console.log("Fruit split by other, es character: " + fruit.split(""));
